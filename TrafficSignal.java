@@ -1,0 +1,22 @@
+class TrafficSignal{
+    public static void main(String[] args) {
+        String signal = "RED";
+
+        switch(signal) {
+            case "RED":
+                System.out.println("Stop");
+                break;
+
+            case "YELLOW":
+                System.out.println("Get Ready");
+                break;
+
+            case "GREEN":
+                System.out.println("Go");
+                break;
+
+            default:
+                System.out.println("Invalid Signal");
+        }
+    }
+}
