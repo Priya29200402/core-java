@@ -2,7 +2,11 @@ class Bird{
 	
 	static String  getColorByName(String name){
 		
+<<<<<<< HEAD
 	
+=======
+		System.out.println("Name of the bird:"+name);
+>>>>>>> 37474d0c8ca517504a73abfef11efce69956d03d
 		
 		if(name==null){
 			
@@ -77,7 +81,11 @@ class Bird{
 		}
 		
 		if(name=="Dove"){
+<<<<<<< HEAD
 			return"Black and white";
+=======
+			return"Black and white"
+>>>>>>> 37474d0c8ca517504a73abfef11efce69956d03d
 		}
 		
 		if(name=="Indian Roller"){
@@ -90,7 +98,11 @@ class Bird{
 		}
 		
 		if(name=="Baya Weaver"){
+<<<<<<< HEAD
 			return "Yellow";
+=======
+			return "Yellow"
+>>>>>>> 37474d0c8ca517504a73abfef11efce69956d03d
 		}
 		
 		if(name=="Bee eater"){
@@ -107,6 +119,7 @@ class Bird{
 		System.out.println("Name is not matching with Database");
 		return null;
 	}
+<<<<<<< HEAD
 	
 	
 	static int getLifeSpan(String name){
@@ -206,4 +219,6 @@ class Bird{
         return 0;
     }
 
+=======
+>>>>>>> 37474d0c8ca517504a73abfef11efce69956d03d
 }
