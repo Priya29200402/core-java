@@ -5,4 +5,7 @@ class TeaColor{
     TeaColor(String color){
         this.color = color;
     }
+	void getInfo(){
+		System.out.println("Color:"+this.color);
+	}
 }

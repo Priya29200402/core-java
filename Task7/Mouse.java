@@ -5,41 +5,70 @@ class Mouse{
     boolean bluetooth;
     boolean wired;
     int quantity;
-
-    MouseCompany mousecompany;
+    MouseCompany mouseCompany;
     Scroller scroller;
     Connection connection;
     Applicable applicable;
-    MouseColor mousecolor;
+    MouseColor mouseColor;
 
-    Mouse(String brand, double price, boolean bluetooth, boolean wired, int quantity,
-          MouseCompany mousecompany, Scroller scroller, Connection connection,
-          Applicable applicable, MouseColor mousecolor){
+    Mouse(String brand,double price,boolean bluetooth,boolean wired,int quantity,
+          MouseCompany mouseCompany,Scroller scroller,Connection connection,
+          Applicable applicable,MouseColor mouseColor){
 
         this.brand = brand;
         this.price = price;
         this.bluetooth = bluetooth;
         this.wired = wired;
         this.quantity = quantity;
-        this.mousecompany = mousecompany;
+        this.mouseCompany = mouseCompany;
         this.scroller = scroller;
         this.connection = connection;
         this.applicable = applicable;
-        this.mousecolor = mousecolor;
+        this.mouseColor = mouseColor;
     }
-	
-	void getMouseDetails(){
 
-        System.out.println("Getting Mouse Details");
+    void getMouseDetails(){
+
+        System.out.println("Mouse Details");
         System.out.println("Brand: " + this.brand);
         System.out.println("Price: " + this.price);
         System.out.println("Bluetooth: " + this.bluetooth);
         System.out.println("Wired: " + this.wired);
         System.out.println("Quantity: " + this.quantity);
-        System.out.println("Company: " + this.mousecompany);
-        System.out.println("Scroller: " + this.scroller);
-        System.out.println("Connection: " + this.connection);
-        System.out.println("Applicable: " + this.applicable);
-        System.out.println("Color: " + this.mousecolor);
+
+        if(this.mouseCompany != null){
+            this.mouseCompany.getDetails();
+        }
+        else{
+            System.out.println("Mouse Company is not there...");
+        }
+
+        if(this.scroller != null){
+            this.scroller.getDetails();
+        }
+        else{
+            System.out.println("Scroller is not there...");
+        }
+
+        if(this.connection != null){
+            this.connection.getDetails();
+        }
+        else{
+            System.out.println("Connection is not there...");
+        }
+
+        if(this.applicable != null){
+            this.applicable.getDetails();
+        }
+        else{
+            System.out.println("Applicable is not there...");
+        }
+
+        if(this.mouseColor != null){
+            this.mouseColor.getDetails();
+        }
+        else{
+            System.out.println("Mouse Color is not there...");
+        }
     }
 }

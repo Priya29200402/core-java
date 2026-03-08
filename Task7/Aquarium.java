@@ -37,10 +37,36 @@ class Aquarium{
         System.out.println("Filter:"+this.filter);
         System.out.println("Size:"+this.size);
 
-        System.out.println("Type:"+this.type);
-        System.out.println("Material:"+this.material);
-        System.out.println("Color:"+this.color);
-        System.out.println("Brand:"+this.brand);
-        System.out.println("Light:"+this.light);
+        if(this.type!=null){
+			this.type.getInfo();
+		}
+		else{
+			System.out.println("Type is Null");
+		}
+		if(this.material!=null){
+			this.material.getInfo();
+		}
+		else{
+			System.out.println("Material is Null");
+		}
+		if(this.color!=null){
+			this.color.getInfo();
+		}
+		else{
+			System.out.println("color is Null");
+		}
+		if(this.brand!=null){
+			this.brand.getInfo();
+		}
+		else{
+			System.out.println("brand is Null");
+		}
+		if(this.light!=null){
+			this.light.getInfo();
+		}
+		else{
+			System.out.println("light is null");
+			
+		}
     }
 }

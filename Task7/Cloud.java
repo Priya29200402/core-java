@@ -33,10 +33,36 @@ class Cloud{
         System.out.println("Price Per Month: "+this.pricePerMonth);
         System.out.println("Secure: "+this.secure);
         System.out.println("Users: "+this.users);
-        System.out.println("Provider: "+this.provider);
-        System.out.println("Region: "+this.region);
-        System.out.println("Type: "+this.type);
-        System.out.println("Plan: "+this.plan);
-        System.out.println("Backup: "+this.backup);
+        
+		if(this.provider!=null){
+			this.provider.getData();
+		}
+		else{
+			System.out.println("Provider is null");	
+		}
+		if(this.region!=null){
+			this.region.getData();
+		}
+		else{
+			System.out.println("region is null");	
+		}
+		if(this.type!=null){
+			this.type.getData();
+		}
+		else{
+			System.out.println("Type is null");	
+		}
+		if(this.plan!=null){
+			this.plan.getData();
+		}
+		else{
+			System.out.println("plan is null");	
+		}
+		if(this.backup!=null){
+			this.backup.getData();
+		}
+		else{
+			System.out.println("backup is null");	
+		}
     }
 }

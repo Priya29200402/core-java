@@ -5,4 +5,7 @@ class IplSponsor{
     IplSponsor(String sponsor){
         this.sponsor = sponsor;
     }
+	void getInfo(){
+		System.out.println("Sponsor:"+sponsor);
+	}
 }

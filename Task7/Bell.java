@@ -20,7 +20,6 @@ class Bell{
         this.weight=weight;
         this.ringing=ringing;
         this.quantity=quantity;
-
         this.material=material;
         this.color=color;
         this.brand=brand;
@@ -36,10 +35,35 @@ class Bell{
         System.out.println("Ringing:"+this.ringing);
         System.out.println("Quantity:"+this.quantity);
 
-        System.out.println("Material:"+this.material);
-        System.out.println("Color:"+this.color);
-        System.out.println("Brand:"+this.brand);
-        System.out.println("Usage:"+this.usage);
-        System.out.println("Sound:"+this.sound);
+        if(this.material!=null){
+			this.material.getData();
+		}
+		else{
+			System.out.println("Material is null");
+		}
+		if(this.color!=null){
+			this.color.getData();
+		}
+		else{
+			System.out.println("Color is null");
+		}
+		if(this.brand!=null){
+			this.brand.getData();
+		}
+		else{
+			System.out.println("brand is null");
+		}
+		if(this.usage!=null){
+			this.usage.getData();
+		}
+		else{
+			System.out.println("usage is null");
+		}
+		if(this.sound!=null){
+			this.sound.getData();
+		}
+		else{
+			System.out.println("sound is null");
+		}
     }
 }

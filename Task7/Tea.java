@@ -36,10 +36,34 @@ class Tea{
         System.out.println("Hot:"+this.hot);
         System.out.println("Cups:"+this.cups);
 
-        System.out.println("Type:"+this.type);
-        System.out.println("Origin:"+this.origin);
-        System.out.println("Color:"+this.color);
-        System.out.println("Flavor:"+this.flavor);
-        System.out.println("Company:"+this.company);
+        if(this.type!=null){
+			this.type.getInfo();
+		}
+		else{
+			System.out.println(" Type is null");
+		}
+		if(this.origin!=null){
+			this.origin.getInfo();
+		}else{
+			System.out.println(" Origin is null");
+		}
+		if(this.color!=null){
+			this.color.getInfo();
+		}
+		else{
+			System.out.println(" Color is null");
+		}
+		if(this.flavor!=null){
+			this.flavor.getInfo();
+		}
+		else{
+			System.out.println(" Flavour is null");
+		}
+		if(this.company!=null){
+			this.company.getInfo();
+		}
+		else{
+			System.out.println(" company is null");
+		}
     }
 }

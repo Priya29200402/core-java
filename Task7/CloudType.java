@@ -5,4 +5,7 @@ class CloudType{
     CloudType(String type){
         this.type=type;
     }
+	void getData(){
+		System.out.println("Type:"+this.type);
+	}
 }

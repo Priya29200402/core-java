@@ -6,4 +6,7 @@ class LionHabitat{
 		this.habitat=habitat;
 		System.out.println("Lion Habitat:"+this.habitat);
 	}
+	void getData(){
+		System.out.println("Lion Habitat:"+this.habitat);
+	}
 }

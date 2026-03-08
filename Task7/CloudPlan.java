@@ -5,4 +5,7 @@ class CloudPlan{
     CloudPlan(String plan){
         this.plan=plan;
     }
+	void getData(){
+		System.out.println("Plan:"+this.plan);
+	}
 }

@@ -1,8 +1,11 @@
 class MotorSpeed{
 
-    String value;
+    String speed;
 
-    MotorSpeed(String value){
-        this.value=value;
+    MotorSpeed(String speed){
+        this.speed=speed;
     }
+	void getInfo(){
+		System.out.println("Motor Speed is:"+this.speed);
+	}
 }

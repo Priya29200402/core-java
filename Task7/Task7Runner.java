@@ -2,19 +2,21 @@ class Task7Runner{
 
     public static void main(String[] args) {
 
-        MouseCompany mousecompany = new MouseCompany("Zebronics");
-        Scroller scroller = new Scroller("Scroller is Working");
-        Connection connection = new Connection("Bluetooth");
-        Applicable applicable = new Applicable("Applicable for all Laptops");
-        MouseColor mousecolor = new MouseColor("White");
+		System.out.println("\n ======Mouse Details=======");		
+        MouseCompany company = new MouseCompany("Logitech");
+        Scroller scroller = new Scroller("Yes");
+        Connection connection = new Connection("USB");
+        Applicable applicable = new Applicable("Laptop");
+        MouseColor color = new MouseColor("Black");
 
-        Mouse mouse = new Mouse("Razer", 399, true, false, 5,
-                                mousecompany, scroller, connection, applicable, mousecolor);
+        Mouse mouse = new Mouse("Logitech M235",899.0,true,false,5,
+                                company,scroller,connection,applicable,color);
 
         mouse.getMouseDetails();
+    
 
 		
-		System.out.println("\n ========================");
+		System.out.println("\n ======File Details=======");
 		
 		FileType fileType=new FileType("Document");
 		FileOwner fileOwner=new FileOwner("Priya");
@@ -24,8 +26,9 @@ class Task7Runner{
 
 		File file=new File("Assignment",2.5,10,true,true,
 		                   fileType,fileOwner,fileLocation,filePermission,fileFormat);
+		file.getFileDetails();
 	    
-		System.out.println("\n ========================");		
+		System.out.println("\n ======Lion Details=======");		
 	    LionType lionType=new LionType("Asiatic");
 		LionColor lionColor=new LionColor("Golden");
 		LionHabitat lionHabitat=new LionHabitat("Forest");
@@ -34,8 +37,9 @@ class Task7Runner{
 
 		Lion lion=new Lion("Simba",5,190.5,true,true,
 		                   lionType,lionColor,lionHabitat,lionFood,lionOrigin);
+		lion.lionData();
 						   
-		System.out.println("\n ========================");	
+		System.out.println("\n ====== Motor Details=======");	
 		
 		MotorCompany motorCompany = new MotorCompany("Bosch");
         MotorType motorType = new MotorType("AC Motor");
@@ -48,6 +52,21 @@ class Task7Runner{
 
         motor.getMotorDetails();
 		
+		System.out.println("\n ======Coach Details=======");
+
+		CoachTeam coachTeam = new CoachTeam("Team India");
+		CoachCountry coachCountry = new CoachCountry("India");
+		CoachExperience coachExperience = new CoachExperience("15 years");
+		CoachSpecialization coachSpecialization = new CoachSpecialization("Left hand Batter");
+		CoachLevel coachLevel = new CoachLevel("International");
+
+		Coach coach = new Coach("Rahul Dravid", 200000, true, 58,
+								coachTeam, coachExperience, coachCountry,
+								coachSpecialization, coachLevel);
+
+		coach.getCoachDetails();
+		
+		
 		System.out.println("===== IPL Details =====");
         IplOwner owner = new IplOwner("Qatar");
         IplCoach iplCoach = new IplCoach("Dinesh Karthik");
@@ -56,7 +75,7 @@ class Task7Runner{
         IplSponsor sponsor = new IplSponsor("Nothing");
 
         Ipl ipl = new Ipl("Royal Challengers Bengaluru",5,8500,true,25,
-                owner,iplCoach,captain,ground,sponsor);
+                          owner,iplCoach,captain,ground,sponsor);
         ipl.getIplDetails();
 		
 		System.out.println("\n===== Spa Details =====");

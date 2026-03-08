@@ -20,7 +20,6 @@ class Ipl{
         this.netWorth=netWorth;
         this.champion=champion;
         this.players=players;
-
         this.owner=owner;
         this.coach=coach;
         this.captain=captain;
@@ -35,11 +34,36 @@ class Ipl{
         System.out.println("Net Worth:"+this.netWorth);
         System.out.println("Champion:"+this.champion);
         System.out.println("Players:"+this.players);
-
-        System.out.println("Owner:"+this.owner);
-        System.out.println("Coach:"+this.coach);
-        System.out.println("Captain:"+this.captain);
-        System.out.println("Ground:"+this.ground);
-        System.out.println("Sponsor:"+this.sponsor);
+		
+		if(this.owner!=null){
+			this.owner.getInfo();
+		}
+		else{
+			System.out.println("owner name is null");
+		}
+		if(this.coach!=null){
+			this.coach.getInfo();
+		}
+		else{
+			System.out.println("Coach name is null");
+		}
+		if(this.captain!=null){
+			this.captain.getInfo();
+		}
+		else{
+			System.out.println("Captain name is Null");
+		}
+		if(this.ground!=null){
+			this.ground.getInfo();
+		}
+		else{
+			System.out.println("Ground name is Null");
+		}
+		if(this.sponsor!=null){
+			this.sponsor.getInfo();
+		}
+		else{
+			System.out.println("Sponsor is null");
+		}
     }
 }

@@ -4,6 +4,8 @@ class FileOwner{
 
     FileOwner(String owner){
         this.owner = owner;
-        System.out.println("File Owner: " + this.owner);
     }
+	void getInfo(){
+		System.out.println("File Owner: " + this.owner);
+	}
 }

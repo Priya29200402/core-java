@@ -5,4 +5,7 @@ class BellMaterial{
     BellMaterial(String material){
         this.material = material;
     }
+	void getData(){
+	System.out.println("material:"+this.material);	
+	}
 }

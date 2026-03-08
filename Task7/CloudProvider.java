@@ -4,5 +4,8 @@ class CloudProvider{
 
     CloudProvider(String provider){
         this.provider=provider;
-    }   
+    }  
+	void getData(){
+	System.out.println("Provider:"+this.provider);
+	}	
 }

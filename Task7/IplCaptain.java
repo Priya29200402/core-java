@@ -5,4 +5,7 @@ class IplCaptain{
     IplCaptain(String captain){
         this.captain = captain;
     }
+	void getInfo(){
+		System.out.println("Captain:"+this.captain);
+	}
 }

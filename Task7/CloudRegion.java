@@ -5,4 +5,7 @@ class CloudRegion{
     CloudRegion(String region){
         this.region=region;
     }
+	void getData(){
+		System.out.println("Region:"+this.region);
+	}
 }

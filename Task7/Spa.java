@@ -20,7 +20,6 @@ class Spa{
         this.price=price;
         this.open=open;
         this.staff=staff;
-
         this.owner=owner;
         this.location=location;
         this.type=type;
@@ -36,10 +35,36 @@ class Spa{
         System.out.println("Open:"+this.open);
         System.out.println("Staff:"+this.staff);
 
-        System.out.println("Owner:"+this.owner);
-        System.out.println("Location:"+this.location);
-        System.out.println("Type:"+this.type);
-        System.out.println("Service:"+this.service);
-        System.out.println("Rating:"+this.rating);
+       if(this.owner!=null){
+		   
+	    this.owner.getData();
+	   }
+	   else{
+		   System.out.println("Owner name is null");
+	   }
+	   if(location!=null){
+		   this.location.getData();
+	   }
+	   else{
+		  System.out.println("Location is null"); 
+	   }
+	   if(this.type!=null){
+		   this.type.getData();
+	   }
+	   else{
+		   System.out.println("spa type is null");
+	   }
+	   if(this.service!=null){
+		   this.service.getData();
+	   }
+	   else{
+		   System.out.println("Spa service is null");
+	   }
+	   if(this.rating!=null){
+		   this.rating.getData();
+	   }
+	   else{
+		   System.out.println("Spa rating is null");
+	   }
     }
 }

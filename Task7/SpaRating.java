@@ -5,4 +5,7 @@ class SpaRating{
     SpaRating(String rating){
         this.rating = rating;
     }
+	void getData(){
+		System.out.println("Rating:"+this.rating);
+	}
 }

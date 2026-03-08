@@ -21,12 +21,14 @@ class File{
 		this.pages=pages;
 		this.readable=readable;
 		this.writable=writable;
-
 		this.fileType=fileType;
 		this.fileOwner=fileOwner;
 		this.fileLocation=fileLocation;
 		this.filePermission=filePermission;
 		this.fileFormat=fileFormat;
+	}
+		
+	void getFileDetails(){
 
 		System.out.println("File Details");
 		System.out.println("Name:"+this.name);
@@ -34,10 +36,37 @@ class File{
 		System.out.println("Pages:"+this.pages);
 		System.out.println("Readable:"+this.readable);
 		System.out.println("Writable:"+this.writable);
-		System.out.println("Type:"+this.fileType);
-		System.out.println("Owner:"+this.fileOwner);
-		System.out.println("Location:"+this.fileLocation);
-		System.out.println("Permission:"+this.filePermission);
-		System.out.println("Format:"+this.fileFormat);
+		
+		if(this.fileType!=null){
+			this.fileType.getInfo();
+		}
+		else{
+			System.out.println("File type is NUll");
+		 }
+		if(this.fileLocation!=null){
+			this.fileLocation.getInfo();
+		}
+		else{
+			System.out.println("File Location is Null");	
+		}
+		if(this.fileFormat!=null){
+			this.fileFormat.getInfo();	
+		}
+		else{
+			System.out.println("File Format is Null");
+		}
+		if(this.filePermission!=null){
+			this.filePermission.getInfo();
+		}
+		else{
+			System.out.println("File Permission is Null");
+		}
+		if(this.fileOwner!=null){
+			this.fileOwner.getInfo();
+		}
+		else{
+			System.out.println("File Owner is Null");	
+		}
 	}
+	
 }

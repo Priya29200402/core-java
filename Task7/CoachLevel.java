@@ -5,4 +5,8 @@ class CoachLevel{
     CoachLevel(String level){
         this.level = level;
     }
+
+    void getData(){
+        System.out.println("Level:" + this.level);
+    }
 }
