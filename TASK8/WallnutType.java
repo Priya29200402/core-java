@@ -1,3 +1,0 @@
-enum WallnutType{
-    ORGANIC, PREMIUM, NATURAL, IMPORTED;
-}
