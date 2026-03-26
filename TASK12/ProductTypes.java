@@ -1,0 +1,3 @@
+enum ProductTypes {
+    ELECTRONICS, FOOD, CLOTHING, FURNITURE, MEDICAL
+}
