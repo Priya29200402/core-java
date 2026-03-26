@@ -248,7 +248,175 @@ class ProductRunner{
 									   "TPLink",WarrantyYears.ONE_YEAR,false,"R_199","China");
 
 		Product product82=new Product("Bookshelf","Durian","28-03-2024",10000, ProductTypes.FURNITURE,
-									   "Durian",WarrantyYears.THREE_YEARS,false,"B_200","India");									   
+									   "Durian",WarrantyYears.THREE_YEARS,false,"B_200","India");
+
+		Product product83=new Product("Table","Ikea","05-04-2025",7000, ProductTypes.FURNITURE,
+									   "Ikea",WarrantyYears.THREE_YEARS,false,"T_201","Sweden");
+
+		Product product84=new Product("Lamp","Philips","12-05-2025",1200, ProductTypes.ELECTRONICS,
+									   "Philips",WarrantyYears.ONE_YEAR,false,"L_202","Netherlands");
+
+		Product product85=new Product("Fan","Havells","20-06-2025",2500, ProductTypes.ELECTRONICS,
+									   "Havells",WarrantyYears.ONE_YEAR,false,"F_203","India");
+
+		Product product86=new Product("Curtain","DDecor","25-07-2024",1800, ProductTypes.FURNITURE,
+									   "DDecor",WarrantyYears.ONE_YEAR,false,"C_204","India");
+
+		Product product87=new Product("Shoes","Reebok","14-08-2025",4000, ProductTypes.CLOTHING,
+									   "Reebok",WarrantyYears.ONE_YEAR,false,"S_205","USA");
+
+		Product product88=new Product("Watch","Fastrack","22-09-2025",3500, ProductTypes.ELECTRONICS,
+									   "Titan",WarrantyYears.ONE_YEAR,false,"W_206","India");
+
+		Product product89=new Product("Bag","Wildcraft","30-10-2025",2200, ProductTypes.CLOTHING,
+									   "Wildcraft",WarrantyYears.ONE_YEAR,false,"B_207","India");
+
+		Product product90=new Product("Chair","Ikea","11-11-2024",4500, ProductTypes.FURNITURE,
+									   "Ikea",WarrantyYears.THREE_YEARS,false,"C_208","Sweden");
+
+		Product product91=new Product("TableFan","Usha","19-12-2025",1800, ProductTypes.ELECTRONICS,
+									   "Usha",WarrantyYears.ONE_YEAR,false,"T_209","India");
+
+		Product product92=new Product("Notebook","Navneet","02-01-2026",120, ProductTypes.CLOTHING,
+									   "Navneet",WarrantyYears.ONE_YEAR,false,"N_210","India");
+
+		Product product93=new Product("Pen","Cello","10-02-2026",20, ProductTypes.CLOTHING,
+									   "Cello",WarrantyYears.ONE_YEAR,false,"P_211","India");
+
+		Product product94=new Product("Milk","Amul","18-03-2026",60, ProductTypes.FOOD,
+									   "Amul",WarrantyYears.ONE_YEAR,false,"M_212","India");
+
+		Product product95=new Product("Butter","Amul","25-04-2026",250, ProductTypes.FOOD,
+									   "Amul",WarrantyYears.ONE_YEAR,false,"B_213","India");
+
+		Product product96=new Product("Cheese","Amul","05-05-2026",300, ProductTypes.FOOD,
+									   "Amul",WarrantyYears.ONE_YEAR,false,"C_214","India");
+
+		Product product97=new Product("Juice","Tropicana","12-06-2026",120, ProductTypes.FOOD,
+									   "PepsiCo",WarrantyYears.ONE_YEAR,false,"J_215","USA");
+
+		Product product98=new Product("Tablet","Apple","20-07-2025",60000, ProductTypes.ELECTRONICS,
+									   "Apple",WarrantyYears.ONE_YEAR,false,"T_216","USA");
+
+		Product product99=new Product("Phone","Samsung","28-08-2025",25000, ProductTypes.ELECTRONICS,
+									   "Samsung",WarrantyYears.ONE_YEAR,false,"P_217","Korea");
+
+		Product product100=new Product("Laptop","Dell","05-09-2025",70000, ProductTypes.ELECTRONICS,
+									   "Dell",WarrantyYears.THREE_YEARS,false,"L_218","USA");
+
+		Product product101=new Product("Mouse","Logitech","12-10-2025",800, ProductTypes.ELECTRONICS,
+									   "Logitech",WarrantyYears.ONE_YEAR,false,"M_219","Switzerland");
+
+		Product product102=new Product("Keyboard","HP","20-11-2025",1500, ProductTypes.ELECTRONICS,
+									   "HP",WarrantyYears.ONE_YEAR,false,"K_220","USA");
+
+		Product product103=new Product("Printer","Canon","28-12-2025",9000, ProductTypes.ELECTRONICS,
+									   "Canon",WarrantyYears.ONE_YEAR,false,"P_221","Japan");
+
+		Product product104=new Product("Scanner","Epson","05-01-2026",8500, ProductTypes.ELECTRONICS,
+									   "Epson",WarrantyYears.ONE_YEAR,false,"S_222","Japan");
+
+		Product product105=new Product("Sofa","UrbanLadder","14-02-2025",30000, ProductTypes.FURNITURE,
+									   "Urban Ladder",WarrantyYears.THREE_YEARS,false,"S_223","India");
+
+		Product product106=new Product("Bed","Ikea","22-03-2025",20000, ProductTypes.FURNITURE,
+									   "Ikea",WarrantyYears.THREE_YEARS,false,"B_224","Sweden");
+
+		Product product107=new Product("Wardrobe","Godrej","30-04-2025",25000, ProductTypes.FURNITURE,
+									   "Godrej",WarrantyYears.THREE_YEARS,false,"W_225","India");
+
+		Product product108=new Product("Curtains","Spaces","08-05-2025",1800, ProductTypes.FURNITURE,
+									   "Spaces",WarrantyYears.ONE_YEAR,false,"C_226","India");
+
+		Product product109=new Product("Shirt","AllenSolly","16-06-2025",2000, ProductTypes.CLOTHING,
+									   "Allen Solly",WarrantyYears.ONE_YEAR,false,"S_227","India");
+
+		Product product110=new Product("Jeans","Levis","24-07-2025",3500, ProductTypes.CLOTHING,
+									   "Levis",WarrantyYears.ONE_YEAR,false,"J_228","USA");
+
+		Product product111=new Product("Jacket","Zara","01-08-2025",5000, ProductTypes.CLOTHING,
+									   "Zara",WarrantyYears.ONE_YEAR,false,"J_229","Spain");
+
+		Product product112=new Product("Sweater","H&M","09-09-2025",2800, ProductTypes.CLOTHING,
+									   "H&M",WarrantyYears.ONE_YEAR,false,"S_230","Sweden");
+
+		Product product113=new Product("Medicine","Crocin","17-10-2025",30, ProductTypes.MEDICAL,
+									   "GSK",WarrantyYears.ONE_YEAR,true,"M_231","India");
+
+		Product product114=new Product("Syrup","Benadryl","25-11-2025",120, ProductTypes.MEDICAL,
+									   "J&J",WarrantyYears.ONE_YEAR,true,"S_232","USA");
+
+		Product product115=new Product("Injection","Insulin","03-12-2025",500, ProductTypes.MEDICAL,
+									   "Novo",WarrantyYears.ONE_YEAR,true,"I_233","Denmark");
+
+		Product product116=new Product("Thermometer","DrMorepen","11-01-2026",300, ProductTypes.MEDICAL,
+									   "Morepen",WarrantyYears.ONE_YEAR,false,"T_234","India");
+
+		Product product117=new Product("Fan","Orient","19-02-2026",2200, ProductTypes.ELECTRONICS,
+									   "Orient",WarrantyYears.ONE_YEAR,false,"F_235","India");
+
+		Product product118=new Product("AC","Voltas","27-03-2026",45000, ProductTypes.ELECTRONICS,
+									   "Voltas",WarrantyYears.THREE_YEARS,false,"A_236","India");
+
+		Product product119=new Product("Cooler","Symphony","04-04-2026",9000, ProductTypes.ELECTRONICS,
+									   "Symphony",WarrantyYears.ONE_YEAR,false,"C_237","India");
+
+		Product product120=new Product("Heater","Bajaj","12-05-2026",3000, ProductTypes.ELECTRONICS,
+									   "Bajaj",WarrantyYears.ONE_YEAR,false,"H_238","India");
+
+		Product product121=new Product("Rice","IndiaGate","20-06-2026",1000, ProductTypes.FOOD,
+									   "ITC",WarrantyYears.ONE_YEAR,false,"R_239","India");
+
+		Product product122=new Product("Wheat","Aashirvaad","28-07-2026",600, ProductTypes.FOOD,
+									   "ITC",WarrantyYears.ONE_YEAR,false,"W_240","India");
+
+		Product product123=new Product("Oil","Fortune","05-08-2026",1800, ProductTypes.FOOD,
+									   "Adani",WarrantyYears.ONE_YEAR,false,"O_241","India");
+
+		Product product124=new Product("Sugar","Madhur","13-09-2026",60, ProductTypes.FOOD,
+									   "Madhur",WarrantyYears.ONE_YEAR,false,"S_242","India");
+
+		Product product125=new Product("Salt","TataSalt","21-10-2026",25, ProductTypes.FOOD,
+									   "Tata",WarrantyYears.ONE_YEAR,false,"S_243","India");
+
+		Product product126=new Product("Biscuit","Oreo","29-11-2026",40, ProductTypes.FOOD,
+									   "Cadbury",WarrantyYears.ONE_YEAR,false,"B_244","USA");
+
+		Product product127=new Product("Chocolate","DairyMilk","07-12-2026",50, ProductTypes.FOOD,
+									   "Cadbury",WarrantyYears.ONE_YEAR,false,"C_245","UK");
+
+		Product product128=new Product("Cake","Monginis","15-01-2026",500, ProductTypes.FOOD,
+									   "Monginis",WarrantyYears.ONE_YEAR,false,"C_246","India");
+
+		Product product129=new Product("Pizza","PizzaHut","23-02-2026",400, ProductTypes.FOOD,
+									   "Pizza Hut",WarrantyYears.ONE_YEAR,false,"P_247","USA");
+
+		Product product130=new Product("Burger","BurgerKing","03-03-2026",200, ProductTypes.FOOD,
+									   "Burger King",WarrantyYears.ONE_YEAR,false,"B_248","USA");
+
+		Product product131=new Product("Fridge","LG","11-04-2026",50000, ProductTypes.ELECTRONICS,
+									   "LG",WarrantyYears.TEN_YEARS,false,"F_249","Korea");
+
+		Product product132=new Product("WashingMachine","IFB","19-05-2026",35000, ProductTypes.ELECTRONICS,
+									   "IFB",WarrantyYears.TEN_YEARS,false,"W_250","India");
+
+		Product product133=new Product("Dishwasher","Bosch","27-06-2026",60000, ProductTypes.ELECTRONICS,
+									   "Bosch",WarrantyYears.TEN_YEARS,false,"D_251","Germany");
+
+		Product product134=new Product("Oven","Samsung","05-07-2026",15000, ProductTypes.ELECTRONICS,
+									   "Samsung",WarrantyYears.ONE_YEAR,false,"O_252","Korea");
+
+		Product product135=new Product("Toaster","Philips","13-08-2026",3000, ProductTypes.ELECTRONICS,
+									   "Philips",WarrantyYears.ONE_YEAR,false,"T_253","Netherlands");
+
+		Product product136=new Product("Mixer","Bajaj","21-09-2026",3500, ProductTypes.ELECTRONICS,
+									   "Bajaj",WarrantyYears.ONE_YEAR,false,"M_254","India");
+
+		Product product137=new Product("Grinder","Preethi","29-10-2026",5000, ProductTypes.ELECTRONICS,
+									   "Preethi",WarrantyYears.ONE_YEAR,false,"G_255","India");
+
+		Product product138=new Product("Induction","Prestige","07-11-2026",4000, ProductTypes.ELECTRONICS,
+									   "Prestige",WarrantyYears.ONE_YEAR,false,"I_256","India");									   
 		
         productstore.save(product1);
         System.out.println("\n");
@@ -495,6 +663,174 @@ class ProductRunner{
 		
 		productstore.save(product82);
         System.out.println("\n");
+		
+		productstore.save(product83);
+		System.out.println("\n");
+
+		productstore.save(product84);
+		System.out.println("\n");
+
+		productstore.save(product85);
+		System.out.println("\n");
+
+		productstore.save(product86);
+		System.out.println("\n");
+
+		productstore.save(product87);
+		System.out.println("\n");
+
+		productstore.save(product88);
+		System.out.println("\n");
+
+		productstore.save(product89);
+		System.out.println("\n");
+
+		productstore.save(product90);
+		System.out.println("\n");
+
+		productstore.save(product91);
+		System.out.println("\n");
+
+		productstore.save(product92);
+		System.out.println("\n");
+
+		productstore.save(product93);
+		System.out.println("\n");
+
+		productstore.save(product94);
+		System.out.println("\n");
+
+		productstore.save(product95);
+		System.out.println("\n");
+
+		productstore.save(product96);
+		System.out.println("\n");
+
+		productstore.save(product97);
+		System.out.println("\n");
+
+		productstore.save(product98);
+		System.out.println("\n");
+
+		productstore.save(product99);
+		System.out.println("\n");
+
+		productstore.save(product100);
+		System.out.println("\n");
+
+		productstore.save(product101);
+		System.out.println("\n");
+
+		productstore.save(product102);
+		System.out.println("\n");
+
+		productstore.save(product103);
+		System.out.println("\n");
+
+		productstore.save(product104);
+		System.out.println("\n");
+
+		productstore.save(product105);
+		System.out.println("\n");
+
+		productstore.save(product106);
+		System.out.println("\n");
+
+		productstore.save(product107);
+		System.out.println("\n");
+
+		productstore.save(product108);
+		System.out.println("\n");
+
+		productstore.save(product109);
+		System.out.println("\n");
+
+		productstore.save(product110);
+		System.out.println("\n");
+
+		productstore.save(product111);
+		System.out.println("\n");
+
+		productstore.save(product112);
+		System.out.println("\n");
+
+		productstore.save(product113);
+		System.out.println("\n");
+
+		productstore.save(product114);
+		System.out.println("\n");
+
+		productstore.save(product115);
+		System.out.println("\n");
+
+		productstore.save(product116);
+		System.out.println("\n");
+
+		productstore.save(product117);
+		System.out.println("\n");
+
+		productstore.save(product118);
+		System.out.println("\n");
+
+		productstore.save(product119);
+		System.out.println("\n");
+
+		productstore.save(product120);
+		System.out.println("\n");
+
+		productstore.save(product121);
+		System.out.println("\n");
+
+		productstore.save(product122);
+		System.out.println("\n");
+
+		productstore.save(product123);
+		System.out.println("\n");
+
+		productstore.save(product124);
+		System.out.println("\n");
+
+		productstore.save(product125);
+		System.out.println("\n");
+
+		productstore.save(product126);
+		System.out.println("\n");
+
+		productstore.save(product127);
+		System.out.println("\n");
+
+		productstore.save(product128);
+		System.out.println("\n");
+
+		productstore.save(product129);
+		System.out.println("\n");
+
+		productstore.save(product130);
+		System.out.println("\n");
+
+		productstore.save(product131);
+		System.out.println("\n");
+
+		productstore.save(product132);
+		System.out.println("\n");
+
+		productstore.save(product133);
+		System.out.println("\n");
+
+		productstore.save(product134);
+		System.out.println("\n");
+
+		productstore.save(product135);
+		System.out.println("\n");
+
+		productstore.save(product136);
+		System.out.println("\n");
+
+		productstore.save(product137);
+		System.out.println("\n");
+
+		productstore.save(product138);
+		System.out.println("\n");
 
         
 		System.out.println("Searching product by uniqeId");
@@ -517,6 +853,11 @@ class ProductRunner{
 		
 		System.out.println("\n All Products");
         productstore.printAllProducts();
+		
+		productstore.getAllOriginCountry("India");
+		
+		boolean ref3 = productstore.checkWarrantyExpiredByUniqueId("S_232");
+		System.out.println("WarrantyExpired:"+ref3);
 		
 		
 		

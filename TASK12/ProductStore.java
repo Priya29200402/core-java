@@ -45,7 +45,7 @@ class ProductStore{
         System.out.println("Total products stored: " + numberOfProductsStored);
 
     } else{
-        System.out.println("Input product array is null");
+        System.out.println("Product array is null we cannot store");
     }
     }
 	
@@ -152,7 +152,7 @@ class ProductStore{
 	}
   }
   
-  void getAllByWarrantyYears(WarrantyYears warrantyYears){
+    void getAllByWarrantyYears(WarrantyYears warrantyYears){
 
     if (warrantyYears != null){
 
@@ -165,6 +165,60 @@ class ProductStore{
         }
     }
 }
+
+	void getAllOriginCountry(String originCountry){
+
+    System.out.println("Getting All the Origin country");
+
+    if(this.product != null && originCountry != null){
+
+        System.out.println("The product array and originCountry is not null");
+
+        for(Product storedProduct : this.product){
+
+            if(storedProduct != null){
+
+                System.out.println("Comparing with: " + storedProduct.originCountry);
+
+                if(storedProduct.originCountry == originCountry){
+                    storedProduct.display();
+                }
+            }
+        }
+
+    } else{
+        System.out.println("The array or originCountry is null");
+    }
+}
+
 	
-	
+	 boolean checkWarrantyExpiredByUniqueId(String productId){
+
+    System.out.println("Checking Warranty Expired By UniqueId");
+    System.out.println("Product ID: " + productId);
+
+    if(this.product != null && productId != null){
+		System.out.println("product and Profuct id is not null we can check");
+
+        for(Product storedProduct : this.product){
+
+            if(storedProduct != null){
+
+                if(storedProduct.uniqeId == productId){
+
+                    if(storedProduct.warrantyExpired == true){
+                        return true;
+                    } else{
+                        return false;
+                    }
+                }
+            }
+        }
+
+    } else{
+        System.out.println("The product array or productId is null");
+    }
+
+    return false;
+}
 }
