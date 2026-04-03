@@ -1,3 +1,0 @@
-enum ItemName{
-	RICE,MOONGDAL,KITKAT,SPRITE;
-}
