@@ -1,4 +1,4 @@
-public class GfG{
+public class PerfectSquare{
     public static boolean isPerfectSquare(long n) {
        
         if (Math.ceil(Math.sqrt(n)) == Math.floor(Math.sqrt(n))) {
