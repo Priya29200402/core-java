@@ -1,6 +1,6 @@
 package com.xworkz;
 
-class ProductInfoRunner {
+class ToyRunner{
     public static void main(String[] args) {
         //store method
         Toy[] toys = new Toy[3];
@@ -10,7 +10,7 @@ class ProductInfoRunner {
         toyStore1.displayAll();
         System.out.println("\n");
 
-        toyStore1.getProductDetails(12);
+        toyStore1.getToyDetails(12);
 
 
         toyStore1.updateToyPrice("Car",400);

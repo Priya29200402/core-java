@@ -11,18 +11,16 @@ public class ToyStore {
         System.out.println("The store method is executing  in class ToyInfo...");
         int indexSize = this.toys.length -1;
 
-        if(toy != null){
-            if(currentIndex <= indexSize){
+        if(toy != null) {
+            if (currentIndex <= indexSize) {
 
                 this.toys[currentIndex] = toy;
 
                 currentIndex++;
 
-            }else{
+            } else {
                 System.out.println("The Toy array is full...");
             }
-        }else{
-            System.out.println("The Toy array is null...");
         }
     }
     void displayAll(){
@@ -38,13 +36,13 @@ public class ToyStore {
         }
 
     }
-    void getProductDetails(int toyId){
+    void getToyDetails(int toyId){
         System.out.println("Displaying toy using toy Id....");
         if(this.toys != null && toyId!= 0){
             for(int i=0;i<currentIndex;i++){
                 if(toys[i].id == toyId){
                     this.toys[i].displayInfo();
-                    //System.out.println(product[i].display());
+
                 }
             }
         }else{
