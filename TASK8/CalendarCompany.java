@@ -1,0 +1,3 @@
+enum CalendarCompany{
+	MAHALAXMI,INDIAMART,REDPIXEL,ZOHO;
+}

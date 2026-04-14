@@ -1,0 +1,3 @@
+enum BeerBrand{
+    KINGFISHER, BUDWEISER, HEINEKEN, CARLSBERG;
+}
