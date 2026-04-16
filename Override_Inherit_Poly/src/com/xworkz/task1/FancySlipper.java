@@ -21,8 +21,7 @@ public class FancySlipper extends Slipper{
         super.wear();
     }
     public String toString() {
-        return "FancySlipper material='" + material + '\'' +
-                ", hasHeel=" + hasHeel + '}';
+        return "FancySlipper material='" + material + '\'' + ", hasHeel=" + hasHeel + '}';
     }
 }
 

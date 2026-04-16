@@ -14,5 +14,7 @@ public class BeltRunner {
         belt.getDetails();
         System.out.println(belt);
         belt.wear();
-        belt.buckle();}
+        belt.buckle();
+    }
+
 }

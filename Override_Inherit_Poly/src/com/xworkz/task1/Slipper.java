@@ -20,9 +20,11 @@ public class Slipper{
     }
 
     void info(){
-        System.out.println("Getting info about the slipper:");
+
+        System.out.println("Getting info about the slipper");
     }
     void wear(){
+
         System.out.println("Wearing the slipper");
     }
     public String toString() {

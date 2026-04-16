@@ -24,11 +24,11 @@ public class Belt {
 
     void getDetails() {
         System.out.println("Belt Details:");
-        System.out.println("Brand: " + Arrays.toString(brands));
-        System.out.println("Type: " + type);
-        System.out.println("Price: " + price);
-        System.out.println("Length: " + length);
-        System.out.println("Material: " + materialType);
+        System.out.println("Brand:" + Arrays.toString(brands));
+        System.out.println("Type:" + type);
+        System.out.println("Price:" + price);
+        System.out.println("Length:" + length);
+        System.out.println("Material:" + materialType);
     }
     void wear() {
         System.out.println("Wearing the belt");
@@ -39,6 +39,7 @@ public class Belt {
 
     @Override
     public String toString() {
-        return "Belt [brand=" + Arrays.toString(brands) + ", type=" + type + ", price=" + price + ", length=" + length + ", material=" + materialType + "]";
+        return "Belt{" + "brands=" + Arrays.toString(brands) + ", type=" + type + ", price=" + price +
+                ", length=" + length + ", materialType=" + materialType + '}';
     }
 }

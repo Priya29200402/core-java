@@ -21,20 +21,23 @@ public class MedicalShop {
     }
 
     public void displayDetails() {
-        System.out.println("Medical Shop Name: " + name);
-        System.out.println("Location: " + Arrays.toString(locations));
-        System.out.println("Medicine Type: " + medicineType);
-        System.out.println("Number of Medicines: " + numberOfMedicines);
+        System.out.println("Medical Shop Name:" + name);
+        System.out.println("Location:" + Arrays.toString(locations));
+        System.out.println("Medicine Type:" + medicineType);
+        System.out.println("Number of Medicines:" + numberOfMedicines);
     }
      void getDetails(){
-         System.out.println("Get details of medical shop");
+
+        System.out.println("Get details of medical shop");
      }
      void getMedicineDetails(){
-         System.out.println("Get details of medicine");
+
+        System.out.println("Get details of medicine");
      }
-     @Override
-     public String toString() {
-         return "MedicalShop [name=" + name + ", location=" + Arrays.toString(locations) + ", medicineType=" + medicineType
-                 + ", numberOfMedicines=" + numberOfMedicines + "]";
-     }
+
+    @Override
+    public String toString() {
+        return "MedicalShop{" + "name='" + name + '\'' + ", locations=" + Arrays.toString(locations) +
+                ", medicineType=" + medicineType + ", numberOfMedicines=" + numberOfMedicines + ", recipt=" + recipt + '}';
+    }
 }

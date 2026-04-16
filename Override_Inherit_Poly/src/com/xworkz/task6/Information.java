@@ -18,13 +18,13 @@ public class Information {
         this.isAvailable = isAvailable;
     }
     void displayInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Type: " + type);
-        System.out.println("Creator: " + creator);
-        System.out.println("Available: " + isAvailable);
+        System.out.println("Name:" + name);
+        System.out.println("Type:" + type);
+        System.out.println("Creator:" + creator);
+        System.out.println("Available:" + isAvailable);
     }
     void getInfo() {
-        System.out.println("Getting information about " + name);
+        System.out.println("Getting information about" + name);
     }
 
 

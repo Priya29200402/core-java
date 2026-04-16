@@ -19,13 +19,15 @@ public class Language {
         this.category=category;
     }
     void info(){
-        System.out.println("Getting info about the language:");
+
+        System.out.println("Getting info about the language");
     }
     void use(){
+
         System.out.println("Using the language");
 }
     public String toString() {
-        return "Language{" + "id=" + id + ", name='" + name + '\'' + ", rating=" + rating +
-                ", versions=" + java.util.Arrays.toString(versions) + ", category=" + category.name + '}';
+        return "Language{" + "id=" + id + ", name='" + name + '\'' + ", rating=" + rating + ", versions=" + java.util.Arrays.toString(versions) + ", " +
+                          "category=" + category.name + '}';
     }
 }

@@ -20,10 +20,10 @@ public class Actor {
     }
 
     void info() {
-        System.out.println("Actor Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Category: " + category);
-        System.out.println("Info: " + info);
+        System.out.println("Actor Name:" + name);
+        System.out.println("Age:" + age);
+        System.out.println("Category:" + category);
+        System.out.println("Info:" + info);
 
 
 

@@ -19,9 +19,11 @@ public class Movie {
     }
 
     void info(){
-        System.out.println("Getting info about the movie:");
+
+        System.out.println("Getting info about the movie");
     }
     void watch(){
+
         System.out.println("Watching the movie");
     }
      public String toString() {

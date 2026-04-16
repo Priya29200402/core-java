@@ -7,7 +7,7 @@ public class ConcertRunner {
         System.out.println(concert);
 
         String[] artists = {"Raghu Dixit", "Arjun Janya", "Vijay Prakash"};
-        LiveConcert liveConcert = new LiveConcert("Jazz Night", "Club", Type.JAZZ, 3, artists);
+        LiveConcert liveConcert = new LiveConcert("Harshostava", "Belagavi", Type.CLASSICAL, 3, artists);
         liveConcert.displayDetails();
         System.out.println(liveConcert);
     }

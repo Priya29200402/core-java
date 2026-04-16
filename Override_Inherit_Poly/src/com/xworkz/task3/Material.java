@@ -9,6 +9,6 @@ public class Material {
 
     @Override
     public String toString() {
-        return "Material [type=" + type + "]";
+        return "Material{" + "type='" + type + '\'' + '}';
     }
 }

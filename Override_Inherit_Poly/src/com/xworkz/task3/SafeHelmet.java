@@ -18,10 +18,10 @@ public class SafeHelmet extends Helmet{
 
     @Override
     void wear() {
+
         super.wear();
     }
     public String toString() {
-        return "SafeHelmet{" + "safetyStandard='" + safetyStandard + '\'' +
-                ", isLightWeight=" + isLightWeight + '}';
+        return "SafeHelmet{" + "safetyStandard='" + safetyStandard + '\'' + ", isLightWeight=" + isLightWeight + '}';
     }
 }

@@ -12,8 +12,8 @@ public class LeadActor extends Actor {
 
     void displayLeadActorInfo() {
         super.info();
-        System.out.println("Lead Role: " + leadRole);
-        System.out.println("Experience: " + experience + " years");
+        System.out.println("Lead Role:" + leadRole);
+        System.out.println("Experience:" + experience);
     }
 
      public String toString() {

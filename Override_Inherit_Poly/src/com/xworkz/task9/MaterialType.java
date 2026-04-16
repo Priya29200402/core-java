@@ -7,8 +7,10 @@ public class MaterialType {
             this.materialType = materialType;
         }
 
-        @Override
-        public String toString() {
-            return "MaterialType [type=" + materialType + "]";
-        }
+    @Override
+    public String toString() {
+        return "MaterialType{" + "materialType='" + materialType + '\'' + '}';
+    }
 }
+
+

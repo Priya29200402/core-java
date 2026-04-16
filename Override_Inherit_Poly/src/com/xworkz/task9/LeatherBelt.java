@@ -16,11 +16,13 @@ public class LeatherBelt extends Belt {
     }
     @Override
     void buckle() {
+
         super.buckle();
     }
+
     @Override
     public String toString() {
-        return "LeatherBelt [leatherType=" + leatherType + ", brand=" + Arrays.toString(brands) + ", type=" + type
-                + ", price=" + price + ", length=" + length + ", material=" + materialType + "]";
+        return "LeatherBelt{" + "length=" + length + ", leatherType='" + leatherType + '\'' + ", brands=" + Arrays.toString(brands) +
+                ", price=" + price + ", type=" + type + ", materialType=" + materialType + '}';
     }
 }

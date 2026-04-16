@@ -18,18 +18,17 @@ public class Helmet {
         this.price = price;
     }
 
-    public Helmet(String color, Type type, String size, Material material) {
-    }
 
     void info(){
-        System.out.println("Getting info about the helmet:");
+
+        System.out.println("Getting info about the helmet");
     }
     void wear(){
+
         System.out.println("Wearing the helmet");
     }
         public String toString() {
-            return "Helmet{" + "brand='" + brands + '\'' + ", type=" + type +
-                    ", material='" + material + '\'' + ", price=" + price +
+            return "Helmet{" + "brand='" + brands + '\'' + ", type=" + type + ", material='" + material + '\'' + ", price=" + price +
                     ", materialType=" + (materialType != null ? materialType.type : "null") + '}';
         }
 }

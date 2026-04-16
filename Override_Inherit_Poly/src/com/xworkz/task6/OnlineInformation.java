@@ -12,15 +12,16 @@ public class OnlineInformation extends Information {
 
     @Override
     void displayInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Type: " + type);
-        System.out.println("Creator: " + creator);
-        System.out.println("Website: " + website);
-        System.out.println("Email: " + email);
+        System.out.println("Name:" + name);
+        System.out.println("Type:" + type);
+        System.out.println("Creator:" + creator);
+        System.out.println("Website:" + website);
+        System.out.println("Email:" + email);
     }
 
     @Override
     void getInfo() {
+
         super.getInfo();
     }
 

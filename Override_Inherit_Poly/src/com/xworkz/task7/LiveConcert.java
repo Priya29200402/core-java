@@ -1,5 +1,7 @@
 package com.xworkz.task7;
 
+import java.util.Arrays;
+
 public class LiveConcert extends Concert {
     String[] artists;
 
@@ -10,19 +12,20 @@ public class LiveConcert extends Concert {
 
   @Override
     void getDetails() {
-        System.out.println("Live Concert Details:");
+        System.out.println("Live Concert Details");
         super.getDetails();
     }
     @Override
     void getProgramDetails() {
-        System.out.println("Live Concert Program Details:");
+        System.out.println("Live Concert Program Details");
         super.getProgramDetails();
     }
+
     @Override
     public String toString() {
-        return "LiveConcert [artists=" + String.join(", ", artists) + ", name=" + name + ", location=" + location
-                + ", type=" + type + ", duration=" + duration + "]";
+        return "LiveConcert{" + "artists=" + Arrays.toString(artists) + ", name='" + name + '\'' + ", location='" + location + '\'' +
+                ", type=" + type + ", duration=" + duration + ", programs=" + Arrays.toString(programs) + '}';
     }
-  }
+}
 
 

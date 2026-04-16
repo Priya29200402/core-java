@@ -21,9 +21,10 @@ public class GoldChain extends Chain{
     void wear() {
         super.wear();
     }
+
     @Override
     public String toString() {
-        return "GoldChain [brand=" + brand + ", carat=" + carat + ", brand=" + Arrays.toString(brands) + ", type=" + type
-                + ", price=" + price + ", length=" + length + ", seller=" + seller + "]";
+        return "GoldChain{" + "brand='" + brand + '\'' + ", carat=" + carat + ", brands=" + Arrays.toString(brands) +
+                ", type=" + type + ", price=" + price + ", length=" + length + ", seller=" + seller + '}';
     }
 }
