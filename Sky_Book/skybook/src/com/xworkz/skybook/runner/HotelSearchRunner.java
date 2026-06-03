@@ -16,6 +16,5 @@ public class HotelSearchRunner {
 
         hotelService.validateAndSearch(searchDTO);
 
-
     }
 }
