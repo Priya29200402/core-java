@@ -15,6 +15,6 @@ public class SightRunner {
         SightService  sightService = new SightServiceImpl(sightDAO);
 
         sightService.validateAndSearch(sightDTO);
-        
+
     }
 }
