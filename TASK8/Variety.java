@@ -1,3 +1,0 @@
-enum Variety{
-	CONNECTICUT,HOWDEN,RACER,WOLF;
-}

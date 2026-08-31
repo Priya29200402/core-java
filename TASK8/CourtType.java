@@ -1,4 +1,0 @@
-enum CourtType{
-	CIVIL,FAMILY,CRIMINAL,CONSUMER;
-	
-}
